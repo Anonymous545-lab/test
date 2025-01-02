@@ -30,7 +30,6 @@ const BackgroundVideo = () => {
         video.addEventListener('ended', handleEnded);
         video.addEventListener('timeupdate', handleTimeUpdate);
 
-        // Cleanup event listeners on component unmount
         return () => {
             video.removeEventListener('ended', handleEnded);
             video.removeEventListener('timeupdate', handleTimeUpdate);
