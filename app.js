@@ -1,3 +1,5 @@
+// app.js
+
 const Navbar = () => (
     <div className="navbar">
         <h1 className="navbar-brand">
